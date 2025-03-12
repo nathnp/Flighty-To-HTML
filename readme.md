@@ -2,6 +2,16 @@
 
 This scrip will convert a Flighty csv flight log, into a nice HTML table.
 
+<table border='1'>
+<tr><th>Date</th><th>Airline</th><th>Flight</th><th>Route</th><th>Aircraft Type Name</th><th>Tail Number</th></tr>
+<tr><td>2023-08-24</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>501</td><td>IND ✈ BWI</td><td>Boeing 737 MAX 8</td><td>N8872Q</td></tr>
+<tr><td>2023-08-24</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>1307</td><td>DEN ✈ IND</td><td>Boeing 737-700</td><td>N259WN</td></tr>
+<tr><td>2023-08-21</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>2820</td><td>RDU ✈ DEN</td><td>Boeing 737-800</td><td>N8612K</td></tr>
+<tr><td>2023-08-21</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>2820</td><td>BWI ✈ RDU</td><td>Boeing 737-800</td><td>N8612K</td></tr>
+<tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1435</td><td>ATL ✈ BWI</td><td>Airbus A321</td><td>N671NK</td></tr>
+<tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1305</td><td>BWI ✈ ATL</td><td>Airbus A321</td><td>N660NK</td></tr>
+</table>
+
 ## Usage
 
 1. Export your Flighty flight log, and save it to your computer.
