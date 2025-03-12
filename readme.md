@@ -20,6 +20,20 @@ This scrip will convert a Flighty csv flight log, into a nice HTML table.
 
 3. Use the HTML table however you want.
 
+## Exporting Flighty Log
+
+1. Click on your profile picture.
+
+2. Click Setting.
+
+3. Scroll down and click Account Data.
+
+4. Click Export Your Flights.
+
+5. Enter your email.
+
+6. Save the log from the email from Flighty.
+
 ## Adding Airlines
 
 To add extra airline names, add both the ICAO code (its in the flights log), and the Airline name to the awk section of the script. For example, to add Air Koryo, do the following.
