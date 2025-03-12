@@ -1,6 +1,6 @@
 # Flighty To HTML
 
-This scrip will convert a Flighty csv flight log, into a nice HTML table.
+This script will convert a Flighty csv flight log, into a nice HTML table.
 
 <table border='1'>
 <tr><th>Date</th><th>Airline</th><th>Flight</th><th>Route</th><th>Aircraft Type Name</th><th>Tail Number</th></tr>
