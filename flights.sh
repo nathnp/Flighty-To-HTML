@@ -18,9 +18,9 @@ fi
     # Read CSV and extract required columns with airline name replacement, storing lines in an array
     tail -n +2 "$INPUT_CSV" | awk -F',' 'BEGIN {
         OFS="</td><td>";
-        airline["SWA"] = "Southwest <img src='/assets/ali/swa.png' width='16'/>";
-        airline["DAL"] = "Delta <img src='/assets/ali/dal.png' width='16'/>";
-        airline["NKS"] = "Spirit <img src='/assets/ali/nks.png' width='16'/>";
+        airline["SWA"] = "Southwest";
+        airline["DAL"] = "Delta";
+        airline["NKS"] = "Spirit";
     }
     {
         if ($26 == "CREW") {
