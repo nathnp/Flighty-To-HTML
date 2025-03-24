@@ -12,13 +12,20 @@ This script will convert a Flighty csv flight log, into a nice HTML table.
 <tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1305</td><td>BWI ✈ ATL</td><td>Airbus A321</td><td>N660NK</td></tr>
 </table>
 
+It will also output a simple stats tables
+
+<table border='1'>
+<tr><th>Flights</th><th>Airports</th><th>Airlines</th><th>Aircraft</th></tr>
+<tr><td>26</td><td>12</td><td>2</td><td>4</td></tr>
+</table>
+
 ## Usage
 
 1. Export your Flighty flight log, and save it to your computer.
 
 2. Run `./flights.sh <PATH TO FLIGHT LOG>`
 
-3. Use the HTML table however you want.
+3. Use the HTML tables however you want.
 
 ## Exporting Flighty Log
 
