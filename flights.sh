@@ -2,7 +2,8 @@
 
 # Input CSV file
 INPUT_CSV="$1"
-OUTPUT_HTML="content/flights/flights.html"
+OUTPUT_HTML="flights.html"
+STATS_HTML="stats.html"
 
 # Ensure an input file is provided
 if [[ -z "$INPUT_CSV" ]]; then
@@ -40,5 +41,27 @@ fi
     echo "</table>"
 } > "$OUTPUT_HTML"
 
+
+
 echo "HTML table has been created in $OUTPUT_HTML"
 
+#Total flights | airports | airlines | Aircraft types
+
+{
+    
+    echo "<table border='1'>"
+    echo "<tr><th>Flights</th><th>Airports</th><th>Airlines</th><th>Aircraft</th></tr>"
+    
+} > "$STATS_HTML"
+
+flights=$(( $(wc -l < "$INPUT_CSV") - 1 ))
+airlines=$(awk -F',' 'NR > 1 { unique[$2] } END { print length(unique) }' "$INPUT_CSV")
+airports=$(awk -F',' 'NR > 1 { unique[$4]; unique[$5] } END { print length(unique) }' "$INPUT_CSV")
+aircraft=$(awk -F',' 'NR > 1 { unique[$20] } END { print length(unique) }' "$INPUT_CSV")
+
+{
+    
+    echo "<tr><td>$flights</td><td>$airports</td><td>$airlines</td><td>$aircraft</td></tr>"
+    echo "</table>"
+    
+} >> "$STATS_HTML"
