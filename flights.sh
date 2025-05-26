@@ -29,7 +29,7 @@ fi
         } else {
             $2 = ($2 in airline) ? airline[$2] : $2;
         }
-        route = $4 " ✈ " $5;
+	route = "<a href=\"https://www.flightradar24.com/data/airports/" tolower($4) "\" target=\"_blank\" rel=\"noreferrer\">" $4 "</a> ✈ <a href=\"https://www.flightradar24.com/data/airports/" tolower($5) "\" target=\"_blank\" rel=\"noreferrer\">" $5 "</a>";
         lines[NR] = "<tr><td>" $1 OFS $2 OFS $3 OFS route OFS $20 OFS $21 "</td></tr>";
     }
     END {
