@@ -1,6 +1,6 @@
 # Flighty To HTML
 
-This script will convert a Flighty csv flight log, into a nice HTML table. Airport codes will also link to FlightRadar24 for inof on that airport.
+This script will convert a Flighty csv flight log, into a nice HTML table. Airport codes will also link to FlightRadar24 for info on that airport.
 
 <table border='1'>
 <tr><th>Date</th><th>Airline</th><th>Flight</th><th>Route</th><th>Aircraft Type Name</th><th>Tail Number</th></tr>
