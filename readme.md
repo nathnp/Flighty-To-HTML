@@ -4,12 +4,11 @@ This script will convert a Flighty csv flight log, into a nice HTML table. Airpo
 
 <table border='1'>
 <tr><th>Date</th><th>Airline</th><th>Flight</th><th>Route</th><th>Aircraft Type Name</th><th>Tail Number</th></tr>
-<tr><td>2023-08-24</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>501</td><td>IND ✈ BWI</td><td>Boeing 737 MAX 8</td><td>N8872Q</td></tr>
-<tr><td>2023-08-24</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>1307</td><td>DEN ✈ IND</td><td>Boeing 737-700</td><td>N259WN</td></tr>
-<tr><td>2023-08-21</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>2820</td><td>RDU ✈ DEN</td><td>Boeing 737-800</td><td>N8612K</td></tr>
-<tr><td>2023-08-21</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>2820</td><td>BWI ✈ RDU</td><td>Boeing 737-800</td><td>N8612K</td></tr>
-<tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1435</td><td>ATL ✈ BWI</td><td>Airbus A321</td><td>N671NK</td></tr>
-<tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1305</td><td>BWI ✈ ATL</td><td>Airbus A321</td><td>N660NK</td></tr>
+<tr><td>2025-05-13</td><td>Delta <img src=/assets/ali/dal.png width=16/></td><td>2780</td><td><a href="https://www.flightradar24.com/data/airports/dal" target="_blank" rel="noreferrer">DAL</a> ✈ <a href="https://www.flightradar24.com/data/airports/atl" target="_blank" rel="noreferrer">ATL</a></td><td>Boeing 717-200</td><td>N955AT</td></tr>
+<tr><td>2025-05-10</td><td>Delta</td><td>2711</td><td><a href="https://www.flightradar24.com/data/airports/bwi" target="_blank" rel="noreferrer">BWI</a> ✈ <a href="https://www.flightradar24.com/data/airports/atl" target="_blank" rel="noreferrer">ATL</a></td><td>Boeing 757-200</td><td>N6704Z</td></tr>
+<tr><td>2025-03-25</td><td>Southwest <img src=/assets/ali/swa.png width=16/></td><td>3548</td><td><a href="https://www.flightradar24.com/data/airports/iad" target="_blank" rel="noreferrer">IAD</a> ✈ <a href="https://www.flightradar24.com/data/airports/den" target="_blank" rel="noreferrer">DEN</a></td><td>Boeing 737-700</td><td>N213WN</td></tr>
+<tr><td>2025-01-12</td><td>Southwest<img src=/assets/ali/swa.png width=16/></td><td>1893</td><td><a href="https://www.flightradar24.com/data/airports/den" target="_blank" rel="noreferrer">DEN</a> ✈ <a href="https://www.flightradar24.com/data/airports/bwi" target="_blank" rel="noreferrer">BWI</a></td><td>Boeing 737-700</td><td>N954WN</td></tr>
+<tr><td>2022-09-24</td><td>Spirit <img src=/assets/ali/nks.png width=16/></td><td>1435</td><td><a href="https://www.flightradar24.com/data/airports/atl" target="_blank" rel="noreferrer">ATL</a> ✈ <a href="https://www.flightradar24.com/data/airports/bwi" target="_blank" rel="noreferrer">BWI</a></td><td>Airbus A321</td><td>N671NK</td></tr>
 </table>
 
 It will also output a simple stats tables
